@@ -1,0 +1,15 @@
+.box{
+    margin: 30px;
+    padding: 20px;
+    border: solid black 3px;
+}
+
+#id1{
+    background-color: aqua;
+}
+#id2{
+    background-color: burlywood;
+}
+#id3{
+    background-color: chartreuse;
+}

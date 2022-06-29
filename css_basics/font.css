@@ -1,0 +1,26 @@
+/* p ~ h1{
+    background-color: aqua;
+} */
+
+div{
+    margin: 30px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.one{
+    transform: scale(2,0.5)
+}
+
+.two{
+    transform: rotate(30deg);
+}
+
+.three{
+    transform: translate(200px,200px);
+}
+.four{
+    transform: skewX(-40deg) skewY(40deg) skewX(40deg) skewY(-40deg);
+}

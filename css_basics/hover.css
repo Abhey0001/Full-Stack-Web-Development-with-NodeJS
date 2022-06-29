@@ -1,0 +1,25 @@
+.box{
+    background-color: aqua;
+    width: 100px;
+}
+div div{
+    display:none;
+}
+.box:hover .item div{
+    display:none;
+}
+
+.box:hover div{
+    background-color:chartreuse;
+    display:block;
+    position: relative;
+    left: 20px;
+    box-shadow: grey 7px 7px 7px;
+}
+.box .item:hover div{
+    background-color:coral;
+    display: block;
+    position: relative;
+    left: 13px;
+    box-shadow: grey 4px 4px 4px;
+}

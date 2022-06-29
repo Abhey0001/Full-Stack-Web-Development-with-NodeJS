@@ -1,0 +1,34 @@
+.container{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    background-color: bisque;
+    display:inline-flex;
+
+    flex-wrap:wrap;
+    flex-direction:row;
+    /* align items within a row are aligned in order*/
+    justify-content:center;
+
+    /* align item wuthin the row perpencularly */
+    align-items:baseline;
+    align-content: center;
+}
+
+.item{
+    margin: 10px;
+    height: 30px;
+    width: 50px;
+    background-color: lightseagreen;
+    font-size: 10pt;
+    color: white;
+    border: dotted maroon 2px;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media(max-width: 900px){
+    .container{
+        background-color: black;
+    }
+}
