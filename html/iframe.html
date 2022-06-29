@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>iframes</h1>
+    <h2>open in frame</h2>
+    <iframe height="400" width="400" src="./iframe.html" frameborder="0">iframe</iframe>
+    <ul>
+        <li><a target="_parent" href="http://google.com">links</a></li>
+        <li><a target="frame1" href="./inner_link.html">inner links</a></li>
+        <!-- <li><a target="frame1" href="iframe.html">iframes</a></li> -->
+    </ul>
+    <iframe name="frame1" frameborder="1" width="400" height="400" src="./links.html" ></iframe>
+    <iframe frameborder="1" width="400" height="400" src="http://example.com" ></iframe>
+</body>
+</html>
